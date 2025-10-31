@@ -1,0 +1,20 @@
+# YOLOv11 Dataset Configuration for Utensil Cleaning Monitoring
+# This file defines the dataset structure and classes for training
+
+# Dataset root directory (relative to this file)
+path: ./data
+
+# Training and validation data directories
+train: train/images
+val: val/images
+
+# Number of classes
+nc: 2
+
+# Class names
+names:
+  0: clean
+  1: dirty
+
+# Download URL (optional, for automatic dataset download)
+# download: https://example.com/dataset.zip
